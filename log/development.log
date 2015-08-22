@@ -1,0 +1,85 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-21 23:05:26 -0300
+
+RuntimeError (Cannot load `Rails.application.database_configuration`:
+Could not load database configuration. No such file - ["config/database.yml"]):
+  test/rails-routes/rails_test.rb:11:in `block in <class:RailsTest>'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-21 23:05:41 -0300
+
+RuntimeError (Cannot load `Rails.application.database_configuration`:
+Could not load database configuration. No such file - ["config/database.yml"]):
+  test/rails-routes/rails_test.rb:11:in `block in <class:RailsTest>'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-21 23:06:05 -0300
+
+RuntimeError (Cannot load `Rails.application.database_configuration`:
+Could not load database configuration. No such file - ["config/database.yml"]):
+  test/rails-routes/rails_test.rb:11:in `block in <class:RailsTest>'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-21 23:07:10 -0300
+
+RuntimeError (Cannot load `Rails.application.database_configuration`:
+Could not load database configuration. No such file - ["config/database.yml"]):
+  test/rails-routes/rails_test.rb:11:in `block in <class:RailsTest>'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-21 23:07:57 -0300
+
+RuntimeError (Cannot load `Rails.application.database_configuration`:
+Could not load database configuration. No such file - ["config/database.yml"]):
+  test/rails-routes/rails_test.rb:11:in `block in <class:RailsTest>'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-21 23:09:11 -0300
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  test/rails-routes/rails_test.rb:11:in `block in <class:RailsTest>'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-21 23:09:17 -0300
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  test/rails-routes/rails_test.rb:11:in `block in <class:RailsTest>'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-21 23:10:01 -0300
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  test/rails-routes/rails_test.rb:11:in `block in <class:RailsTest>'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-21 23:10:20 -0300
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  test/rails-routes/rails_test.rb:11:in `block in <class:RailsTest>'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-21 23:11:03 -0300
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  test/rails-routes/rails_test.rb:11:in `block in <class:RailsTest>'
+
+
