@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.version       = RailsRoutes::VERSION
   spec.authors       = ["Nando Vieira"]
   spec.email         = ["fnando.vieira@gmail.com"]
-  spec.summary       = "Enable config/route/*.rb on your Rails application."
+  spec.summary       = "Enable config/routes/*.rb on your Rails application."
   spec.description   = spec.summary
   spec.homepage      = "https://github.com/fnando/rails-routes"
   spec.license       = "MIT"
