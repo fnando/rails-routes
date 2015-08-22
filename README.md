@@ -38,6 +38,8 @@ Rails.application.routes.draw do
 end
 ```
 
+The routes will be reloaded in development; if you create or remove files, you have to restart your server.
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
