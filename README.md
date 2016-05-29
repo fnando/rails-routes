@@ -1,6 +1,10 @@
 # Rails::Routes
 
-[![build status](https://travis-ci.org/fnando/rails-routes.svg)](https://travis-ci.org/fnando/rails-routes)
+[![Travis-CI](https://travis-ci.org/fnando/rails-routes.png)](https://travis-ci.org/fnando/rails-routes)
+[![Code Climate](https://codeclimate.com/github/fnando/rails-routes/badges/gpa.svg)](https://codeclimate.com/github/fnando/rails-routes)
+[![Test Coverage](https://codeclimate.com/github/fnando/rails-routes/badges/coverage.svg)](https://codeclimate.com/github/fnando/rails-routes/coverage)
+[![Gem](https://img.shields.io/gem/v/rails-routes.svg)](https://rubygems.org/gems/rails-routes)
+[![Gem](https://img.shields.io/gem/dt/rails-routes.svg)](https://rubygems.org/gems/rails-routes)
 
 Too many routes on your Rails app? Me too! This gem allows you to separate your routes on different files. Just create them at `config/routes/*.rb` and you're good to go.
 
