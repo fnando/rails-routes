@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module RailsRoutes
   class Railtie < Rails::Railtie
     initializer "rails_routes" do

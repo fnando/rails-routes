@@ -1,0 +1,14 @@
+---
+inherit_gem:
+  rubocop-fnando: .rubocop.yml
+
+AllCops:
+  TargetRubyVersion: 2.7
+  NewCops: enable
+  Exclude:
+    - test/dummy/**/*
+    - vendor/**/*
+
+Naming/FileName:
+  Exclude:
+    - lib/rails-routes.rb

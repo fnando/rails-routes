@@ -4,14 +4,17 @@ sudo: false
 notifications:
   email: false
 rvm:
-- 2.6.1
+  - 2.7.1
+  - 2.6.5
 before_install: gem install bundler
 before_script:
-- curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-- chmod +x ./cc-test-reporter
-- "./cc-test-reporter before-build"
+  - "curl -L
+    https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64
+    > ./cc-test-reporter"
+  - chmod +x ./cc-test-reporter
+  - "./cc-test-reporter before-build"
 after_script:
-- "./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT"
+  - "./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT"
 env:
   global:
     secure: e3aI4XGIHGxpdPJA/gxk0ab9CN3TgvrFQfZFaINy9HxWUZ42y74La2qhpfg8ZetoWm7EkXFqX/150VH4OGE42UN2g3rfgn3D/RAtD6NUHYKKyHZShE54TFWJgghT/8/YbzuPEVyY/A49kKTIQy31FeS9JgloZ4CU8Fh6lnQ+y8bMslNREAUclkdT0oyarwYSJIy4DXekIc+qAZs+1cBEcrmM4z3kCrRdT1ELsCnthSYmkJFSNyn/EPNKw4AaLJh/pbBiA3KFEYaXqgFRZ9eXDmYJMlx/Xqji3ewNTIVNBPKZx1r1sEObHgOVKAduBHCFDdGGfYrb1DlB9jX5fuvbTnfgYPgUf4FvqNYh2rN3XVxSetv+y0/vG8m7fIlfSYg0otALWWd6LvMfTy2NSsJ9JbDKggMc+J1OEZBI31sMmCyoTkEzKM/uNTsATxLfmJpuWEa7Xt/nexRejNL7gJI0doGY9vF68UGW+XsS1TumPPvrgp5PcUdEJXZAedvLogUMv58PiAp54F/tPnXvKCphRIfy2UI+FTa3Iuc6g4lyzX5qPSDo5zFMmjVnQgXKjKEY6TPPBX867y6Um8lWGFxGdulT/hEqQgE/bHaAkLqGLMWetM/3CfM8q7qKaJOHhAIku0zHYjHHLRinXpEUfsOkVMlZvxJnRgkoN4P1pB/cP9U=

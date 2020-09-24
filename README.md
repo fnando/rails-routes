@@ -2,18 +2,19 @@
 
 [![Travis-CI](https://travis-ci.org/fnando/rails-routes.svg)](https://travis-ci.org/fnando/rails-routes)
 [![Code Climate](https://codeclimate.com/github/fnando/rails-routes/badges/gpa.svg)](https://codeclimate.com/github/fnando/rails-routes)
-[![Test Coverage](https://codeclimate.com/github/fnando/rails-routes/badges/coverage.svg)](https://codeclimate.com/github/fnando/rails-routes/coverage)
 [![Gem](https://img.shields.io/gem/v/rails-routes.svg)](https://rubygems.org/gems/rails-routes)
 [![Gem](https://img.shields.io/gem/dt/rails-routes.svg)](https://rubygems.org/gems/rails-routes)
 
-Too many routes on your Rails app? Me too! This gem allows you to separate your routes on different files. Just create them at `config/routes/*.rb` and you're good to go.
+Too many routes on your Rails app? Me too! This gem allows you to separate your
+routes on different files. Just create them at `config/routes/*.rb` and you're
+good to go.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rails-routes'
+gem "rails-routes"
 ```
 
 And then execute:
@@ -26,7 +27,8 @@ Or install it yourself as:
 
 ## Usage
 
-After adding this gem to your project, you can create multiple route files inside `config/routes`. Just make sure you wrap your routes with
+After adding this gem to your project, you can create multiple route files
+inside `config/routes`. Just make sure you wrap your routes with
 
 ```ruby
 # config/routes/v1.rb
@@ -44,20 +46,29 @@ Rails.application.routes.draw do
 end
 ```
 
-The routes will be reloaded in development; if you create or remove files, you have to restart your server.
+The routes will be reloaded in development; if you create or remove files, you
+have to restart your server.
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+After checking out the repo, run `bin/setup` to install dependencies. Then, run
+`rake test` to run the tests. You can also run `bin/console` for an interactive
+prompt that will allow you to experiment.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+To install this gem onto your local machine, run `bundle exec rake install`. To
+release a new version, update the version number in `version.rb`, and then run
+`bundle exec rake release`, which will create a git tag for the version, push
+git commits and tags, and push the `.gem` file to
+[rubygems.org](https://rubygems.org).
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/fnando/rails-routes. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
-
+Bug reports and pull requests are welcome on GitHub at
+https://github.com/fnando/rails-routes. This project is intended to be a safe,
+welcoming space for collaboration, and contributors are expected to adhere to
+the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
+The gem is available as open source under the terms of the
+[MIT License](http://opensource.org/licenses/MIT).
